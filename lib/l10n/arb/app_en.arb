@@ -1,0 +1,59 @@
+{
+  "@@locale": "en",
+  "counterAppBarTitle": "Counter",
+  "@counterAppBarTitle": {
+    "description": "Text shown in the AppBar of the Counter Page"
+  },
+  "editTodoAddAppBarTitle": "Add Todo",
+  "@editTodoAddAppBarTitle": {
+    "description": "App bar title when adding a new todo"
+  },
+  "editTodoEditAppBarTitle": "Edit Todo",
+  "@editTodoEditAppBarTitle": {
+    "description": "App bar title when editing an existing todo"
+  },
+  "editTodoSaveButtonTooltip": "Save your todo",
+  "@editTodoSaveButtonTooltip": {
+    "description": "Tooltip text for the save button when editing or adding a todo"
+  },
+  "editTodoTitleLabel": "Todo Title",
+  "@editTodoTitleLabel": {
+    "description": "Label for the title input field in the edit todo screen"
+  },
+  "editTodoDescriptionLabel": "Todo Description",
+  "@editTodoDescriptionLabel": {
+    "description": "Label for the description input field in the edit todo screen"
+  },
+  "statsAppBarTitle": "Stats",
+  "@statsAppBarTitle": {
+    "description": "Text shown in the AppBar of the Stats Page"
+  },
+  "statsCompletedTodoCountLabel": "Completed Todos Count",
+  "@statsCompletedTodoCountLabel": {
+    "description": "Label for the number of completed todos"
+  },
+  "statsActiveTodoCountLabel": "Active Todos Count",
+  "@statsActiveTodoCountLabel": {
+    "description": "Label for the number of active todos"
+  },
+  "todosOverviewAppBarTitle": "Todos",
+  "@todosOverviewAppBarTitle": {
+    "description": "Title for the AppBar on the todos overview page"
+  },
+  "todosOverviewErrorSnackbarText": "Something went wrong!",
+  "@todosOverviewErrorSnackbarText": {
+    "description": "Text shown in a snackbar when there is an error"
+  },
+  "todosOverviewTodoDeletedSnackbarText": "Todo deleted",
+  "@todosOverviewTodoDeletedSnackbarText": {
+    "description": "Text shown in a snackbar when a todo is deleted"
+  },
+  "todosOverviewUndoDeletionButtonText": "Undo",
+  "@todosOverviewUndoDeletionButtonText": {
+    "description": "Text for the undo button in the snackbar"
+  },
+  "todosOverviewEmptyText": "No todos yet",
+  "@todosOverviewEmptyText": {
+    "description": "Text shown when there are no todos"
+  }
+}
