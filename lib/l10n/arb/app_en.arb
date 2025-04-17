@@ -44,9 +44,14 @@
   "@todosOverviewErrorSnackbarText": {
     "description": "Text shown in a snackbar when there is an error"
   },
-  "todosOverviewTodoDeletedSnackbarText": "Todo deleted",
+  "todosOverviewTodoDeletedSnackbarText": "Todo \"{todoTitle}\" deleted",
   "@todosOverviewTodoDeletedSnackbarText": {
-    "description": "Text shown in a snackbar when a todo is deleted"
+    "description": "Text shown in a snackbar when a todo is deleted",
+    "placeholders": {
+      "todoTitle": {
+        "example": "Buy milk"
+      }
+    }
   },
   "todosOverviewUndoDeletionButtonText": "Undo",
   "@todosOverviewUndoDeletionButtonText": {
@@ -55,5 +60,38 @@
   "todosOverviewEmptyText": "No todos yet",
   "@todosOverviewEmptyText": {
     "description": "Text shown when there are no todos"
+  },
+  "todosOverviewOptionsTooltip": "Options",
+  "@todosOverviewOptionsTooltip": {
+    "description": "Tooltip for the options menu button on the todos overview page"
+  },
+  "todosOverviewOptionsMarkAllIncomplete": "Mark all as incomplete",
+  "@todosOverviewOptionsMarkAllIncomplete": {
+    "description": "Menu option to mark all todos as incomplete"
+  },
+  "todosOverviewOptionsMarkAllComplete": "Mark all as complete",
+  "@todosOverviewOptionsMarkAllComplete": {
+    "description": "Menu option to mark all todos as complete"
+  },
+  "todosOverviewOptionsClearCompleted": "Clear completed",
+  "@todosOverviewOptionsClearCompleted": {
+    "description": "Menu option to clear all completed todos"
+  }
+  ,
+  "todosOverviewFilterTooltip": "Filter todos",
+  "@todosOverviewFilterTooltip": {
+    "description": "Tooltip for the filter button on the todos overview page"
+  },
+  "todosOverviewFilterAll": "All",
+  "@todosOverviewFilterAll": {
+    "description": "Filter option to show all todos"
+  },
+  "todosOverviewFilterActiveOnly": "Active only",
+  "@todosOverviewFilterActiveOnly": {
+    "description": "Filter option to show only active todos"
+  },
+  "todosOverviewFilterCompletedOnly": "Completed only",
+  "@todosOverviewFilterCompletedOnly": {
+    "description": "Filter option to show only completed todos"
   }
 }
